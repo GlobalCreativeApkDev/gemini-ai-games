@@ -14,25 +14,33 @@ An application containing a compilation of games with Google Gemini AI integrate
 |----------------|-----------------------------------------------------------------|----------------|
 | Gemini Pro RPG | [GlobalCreativeApkDev](https://github.com/GlobalCreativeApkDev) | 1.2            |
 
-# How to Add a Game?
+# How to Add Your Game Requiring Installation?
 
 1. Enter the name of your game on a new line in the file games.txt.
 2. Ensure that the name of the game you entered is already available as a PyPi project, with the format containing 
-at least like below, where [your_package_name] is the name of your package and [entry_point_name] is the name
-of the entry point of your package.
+at least like below, where [your_game_name] is the name of your game and [entry_point_name] is the name
+of the entry point of your game.
 
-[your_package_name]
-├── [your_package_name]
-│   └── [entry_point_name].py
-└── setup.py
+[your_game_name]
+
+└── [your_game_name]
+
+   ├── [entry_point_name].py
+
+├── setup.py
 
 3. Create a fork or a new branch and then merge it to **master** branch of this repository.
-4. Add the game to either **Pre-Installed Games** or **Games Requiring Installation** section of this document, 
-depending on the category of your game.
+4. Add the game to either **Games Requiring Installation** section of this document.
+
+# How to Add Your Game as a Pre-Installed Game?
+
+1. Navigate to the directory **pre-installed** in this repo.
+2. Add a new subdirectory inside that directory, where the subdirectory consists all files required for your game with 
+Google Gemini AI integrated into it.
 
 # Source Code
 
-The source code of the application **Gemini AI Games** is found in
+The source code of the application **Gemini AI Games** is found in [main.py](https://github.com/GlobalCreativeApkDev/gemini-ai-games/blob/master/main.py).
 
 # Installation
 
@@ -57,3 +65,40 @@ python3 main.py
 **Note:** Replace <GEMINI_AI_GAMES_DIRECTORY> with the path to the directory of the application **Gemini AI Games**.
 
 Then, the application will start with something looking like in the screenshot below.
+
+![Main Menu](images/Main%20Menu.png)
+
+You can now do one of the following by following the instructions shown in the command prompt.
+
+1. Play a pre-installed game.
+2. Install a game.
+3. Play a game you have installed (not a pre-installed game).
+4. Uninstall a game.
+
+# Playing a Pre-Installed Game
+
+Once you chose to play a pre-installed game, you can enter the index of the pre-installed game of your choice.
+
+![Play Pre-Installed Game](images/Play%20Pre_Installed%20Game.png)
+
+Then, the game of your choice is started.
+
+# Install a Game
+
+Once you chose to install a game, you can enter the index of the game of your choice.
+
+![Install Game](images/Install%20Game.png)
+
+# Playing an Installed Game
+
+Once you chose to play a game you have installed, you can enter the index of the game of your choice.
+
+![Play Installed Game](images/Play%20Installed%20Game.png)
+
+Then, the game of your choice is started.
+
+# Uninstall a Game
+
+Once you chose to uninstall a game, you can enter the index of the game of your choice.
+
+![Uninstall Game](images/Uninstall%20Game.png)
