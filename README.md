@@ -23,11 +23,11 @@ of the entry point of your game.
 
 [your_game_name]
 
-└── [your_game_name]
+----└── [your_game_name]
 
-----├── [entry_point_name].py
+--------├── [entry_point_name].py
 
-├── setup.py
+----├── setup.py
 
 3. Create a fork or a new branch and then merge it to **master** branch of this repository.
 4. Add the game to either **Games Requiring Installation** section of this document.
