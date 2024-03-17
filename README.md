@@ -37,6 +37,8 @@ of the entry point of your game.
 1. Navigate to the directory **pre-installed** in this repo.
 2. Add a new subdirectory inside that directory, where the subdirectory consists all files required for your game with 
 Google Gemini AI integrated into it.
+3. Create a fork or a new branch and then merge it to **master** branch of this repository.
+4. Add the game to either **Pre-Installed Games** section of this document.
 
 # Source Code
 
