@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 
 def readme():
@@ -10,7 +10,7 @@ def readme():
 setup(
     name='gemini-ai-games',
     version='1',
-    packages=['gemini-ai-games'],
+    packages=find_packages(),
     url='https://github.com/GlobalCreativeApkDev/gemini-ai-games',
     license='MIT',
     author='GlobalCreativeApkDev',
