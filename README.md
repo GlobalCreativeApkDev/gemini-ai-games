@@ -25,7 +25,7 @@ of the entry point of your game.
 
 └── [your_game_name]
 
-   ├── [entry_point_name].py
+----├── [entry_point_name].py
 
 ├── setup.py
 
